@@ -26,7 +26,7 @@ class Triangle: UIView {
         tagLabel.lineBreakMode = .byWordWrapping
         tagLabel.adjustsFontSizeToFitWidth = true;
         tagLabel.minimumScaleFactor = 0.5
-        tagLabel.text = ["Game","Trade","Free"].randomElement()
+        tagLabel.text = ["Test1","Test2","Test3"].randomElement()
         tagLabel.textColor = UIColor(hexFromString: "#ffffff")
         tagLabel.backgroundColor = .clear
         self.layer.addSublayer(shapeLayer)
